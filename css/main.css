@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Grape+Nuts&family=Indie+Flower&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+nav {
+  background-color: #F6BEC4;
+  font-family: "Grape Nuts", cursive;
+  font-size: 1.8rem; }
+  nav a img {
+    width: 75%; }
+  nav a img, nav .animation {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: initial; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+body {
+  background-color: #F5E8E6;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem; }
+  body main div h1 {
+    font-size: 3rem;
+    font-family: "Grape Nuts", cursive;
+    text-align: center; }
+  body main div p {
+    text-align: justify; }
+  body main img, body main .animation {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: initial; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  body main h2 {
+    font-size: 2rem;
+    font-family: "Grape Nuts", cursive;
+    text-align: center; }
+  body main img, body main iframe, body main .animation {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: initial; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  @media (max-width: 992px) {
+    body main iframe {
+      width: 75%; } }
+  @media (max-width: 540px) {
+    body main iframe {
+      width: 50%; } }
+  body main img:hover {
+    cursor: pointer; }
+
+footer {
+  background-color: #F6BEC4; }

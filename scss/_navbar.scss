@@ -1,0 +1,22 @@
+nav {
+		background-color: map-get($map:$paleta,$key:'cinco');
+		font-family: $fontMain;
+		font-size: $textMd;
+
+				a img{ width: $w-75;
+					}
+				a img, .animation{
+						animation-duration: 3s;
+						animation-name: aparecer;
+						animation-iteration-count: initial;
+						}
+												
+						@keyframes aparecer{
+						0%{
+							opacity: 0;
+						}
+						100% {	
+							opacity: 1;
+						}
+						}
+	}
