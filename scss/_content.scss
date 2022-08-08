@@ -1,70 +1,11 @@
-body{
-	background-color: map-get($map:$paleta,$key:'uno');
-	font-family: $fontSecondary;
+body {
+	background-color: map-get($map:$paleta,$key:'dos');
+	font-family: $fontMain;
 	font-size: $textSm;
-	main{
-		div{
-			h1{
-			font-size: $textXl;
-			font-family: $fontMain;
-			text-align: center;
-				}
-			p{
-				text-align: justify;
-			}
-			}
-				img, .animation{
-							animation-duration: 3s;
-							animation-name: aparecer;
-							animation-iteration-count: initial;
-							}
-													
-							@keyframes aparecer{
-							0%{
-								opacity: 0;
-							}
-							100% {	
-								opacity: 1;
-							}
-							}
-			h2{
-				font-size: $textLg;
-				font-family: $fontMain;
-				text-align: center;
-			}
+	header{
+		background-color: map-get($map:$paleta,$key:'uno');
+		font-family: $fontSecondary;
+		font-size: $textLg;
 
-			img, iframe, .animation{
-					animation-duration: 3s;
-					animation-name: aparecer;
-					animation-iteration-count: initial;
-					}
-											
-					@keyframes aparecer{
-					0%{
-						opacity: 0;
-					}
-					100% {
-						opacity: 1;
-					}
-			}
-
-				iframe{
-					@media(max-width: 992px) {
-						width: $w-75;
-
-					}
-					@media(max-width: 540px) {
-						width: $w-50;
-
-					}
-
-				}
-				img{ &:hover{
-				cursor: pointer;
-					}
-				}
-
-			}
-
-		}
-	
+	}
+}
