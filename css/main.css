@@ -1,21 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0; }
 
 nav {
   background-color: #293241;
-  font-family: "Grape Nuts", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem; }
 
 body {
-  background-color: #98C1D9;
-  font-family: "Grape Nuts", cursive;
+  background-color: #E0FBFC;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem; }
   body header {
-    background-color: #3D5A80;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem; }
+    background-image: url(../img/manigueta.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body header h1, body header p {
+      font-family: "Roboto", serif;
+      font-size: 2rem;
+      color: black; }
+    body header p {
+      font-size: 1.8rem;
+      font-weight: bold; }
+  body section h1, body section p {
+    font-family: "Roboto", serif;
+    font-size: 2rem;
+    color: black; }
+  body section p {
+    font-size: 1.8rem;
+    font-weight: bold; }
 
 footer {
   background-color: #293241; }
