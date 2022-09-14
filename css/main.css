@@ -13,11 +13,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem; }
   body header {
-    background-image: url(../img/manigueta.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    background-color: #98C1D9; }
     body header h1, body header p {
       font-family: "Roboto", serif;
       font-size: 2rem;

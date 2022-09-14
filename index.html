@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Taller Tintero Gráfico</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/logotintero.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -37,7 +37,7 @@
         <header class="masthead text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="img/logo.jpg" alt="Logo Taller Tintero Gráfico" />
+                <img class="w-50 mb-5" src="img/logotintero.svg" alt="Logo Taller Tintero Gráfico" />
                 <!-- Masthead Heading-->
                 <h1 class="mb-0">Tintero Gráfico</h1>
                 <!-- Icon Divider-->
@@ -163,26 +163,26 @@
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Escribí tu nombre..." data-sb-validations="required" />
-                                <label for="name">Nombre completo</label>
+                                <label for="name" class="fw-bold">Nombre completo</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">El nombre es requerido.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="nombre@ejemplo.com" data-sb-validations="required,email" />
-                                <label for="email">Correo electrónico</label>
+                                <label for="email" class="fw-bold">Correo electrónico</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">El correo es requerido.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Correo no válido</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Número telefónico</label>
+                                <label for="phone" class="fw-bold">Número telefónico</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Mensaje</label>
+                                <label for="message" class="fw-bold">Mensaje</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es requerido.</div>
                             </div>
                             <!-- Submit success message-->
@@ -203,7 +203,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al enviar mensaje!</div></div>
                             <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
+                            <button class="btn btn-primary btn-xl disabled fw-bold" id="submitButton" type="submit">Enviar</button>
                         </form>
                     </div>
                 </div>
