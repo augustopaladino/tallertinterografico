@@ -5,11 +5,11 @@ body {
 	font-size: $textSm;
 
 	header{
-		background-color: map-get($map: $paleta, $key: 'dos' );
+			background-color: map-get($map: $paleta, $key: 'dos' );
 			h1{
-		font-family: $fontSecondary;
-		font-size: $textLg;
-		color: black;
+			font-family: $fontSecondary;
+			font-size: $textLg;
+			color: black;
 			}
 			p{
 			@extend h1;
